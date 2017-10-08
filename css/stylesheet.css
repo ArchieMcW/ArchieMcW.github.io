@@ -4,7 +4,7 @@ body {
 }
 
 .sidebar {
-    position: fixed;
+  position: fixed;
 	height: 100%;
 	left: 0;
 	top: 0px;
@@ -13,27 +13,26 @@ body {
 }
 
 .sidebar h1 {
-	
-    color: white;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .sidebar p {
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .content {
-    margin-left: 30%;
-    height: 100%;
-    width: auto;
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    word-wrap: break-word;
+  margin-left: 30%;
+  height: 100%;
+  width: auto;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  word-wrap: break-word;
 }
 
 .content h1 {
@@ -71,7 +70,7 @@ body {
 	text-align: center;
 }
 
-/* The only rule that matters */
+
 #video-background {
   display: block;
   margin: 0 auto;
@@ -83,8 +82,6 @@ body {
   width: auto; 
   height: auto;
   z-index: -100;
-
-
 }
 
 span {
@@ -92,13 +89,13 @@ span {
 }
 
 #myInput {
-    background-position: 10px 12px; /* Position the search icon */
-    background-repeat: no-repeat; /* Do not repeat the icon image */
-    width: 50%; /* Full-width */
-    font-size: 16px; /* Increase font-size */
-    padding: 12px 20px 12px 40px; /* Add some padding */
-    border: 1px solid #ddd; /* Add a grey border */
-    margin-bottom: 12px; /* Add some space below the input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 50%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 13px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
 }
 
 .searchbar-container {
