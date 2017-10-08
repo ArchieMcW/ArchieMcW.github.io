@@ -67,6 +67,10 @@ body {
 	transform: scale(1.25, 1.25);
 }
 
+.myURL {
+	text-align: center;
+}
+
 /* The only rule that matters */
 #video-background {
   display: block;
@@ -102,7 +106,7 @@ span {
 	text-align: center;
 }
 
-.survheader {
+.skheader {
 	padding-top: 10px;
 }
 
