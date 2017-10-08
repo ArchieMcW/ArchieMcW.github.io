@@ -96,7 +96,7 @@ input.animated-button.thar-three:focus {
 }
 
 .content ul, li img{
-	transform: scale(0.8, 0.8);
+	transform: scale(1, 1);
 	transition: 0.3s ease;
 	cursor: pointer;
 	vertical-align: top;
