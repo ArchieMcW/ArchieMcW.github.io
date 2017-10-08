@@ -78,7 +78,7 @@ a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
 a.animated-button:link, a.animated-button:visited {
 	position: relative;
 	display: block;
-	margin: 30px auto 0;
+	margin: 15px auto 0;
 	padding: 14px 15px;
 	color: #fff;
 	font-size:14px;
@@ -100,7 +100,7 @@ a.animated-button.thar-three {
 	text-decoration: none;
     text-transform: uppercase;
 	padding: 14px 15px;
-	margin: 30px auto 0;
+	margin: 15px auto 0;
 	color: #fff;
 	cursor: pointer;
 	display: block;
