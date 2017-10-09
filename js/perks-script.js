@@ -88,17 +88,17 @@ var SurvivorPerkDescriptions = [/*Ace In The Hole*/"Lady Luck always seems to be
 						/*We'll Make It*/"Helping others heightens your morale. For each Survivor you rescue from a hook, gain an additional <span style='color:yellow'>25</span>/<span style='color:green'>50</span>/<span style='color:purple'>100</span> % speed increase to healing up to a maximum of 100% for <span style='color:yellow'>30</span>/<span style='color:green'>60</span>/<span style='color:purple'>90</span> seconds.",
 						/*We're Gonna Live Forever*/"Your few friends deserve the best protection. Each time you rescue or take a hit to protect a survivor, gain <span style='color:yellow'>25%</span> stackable bonus to all Bloodpoint gains up to a maximum of <span style='color:yellow'>50</span>/<span style='color:yellow'>75</span>/<span style='color:green'>100</span> %. The Bonus Bloodpoints are only awarded post-trial."]; 
 
-var SurvivorTeachable = ["Standard Perk",
-				 "Teachable from Dwight Fairfield",
-				 "Teachable from Meg Thomas",
-				 "Teachable from Claudette Morel",
-				 "Teachable from Jake Park",
-				 "Teachable from Nea Karlsson",
-				 "Teachable from Laurie Strode",
-				 "Teachable from Ace Visconti",
-				 "Teachable from William 'Bill' Overbeck",
-				 "Teachable from Feng Min",
-				 "Teachable from David King"];
+var SurvivorTeachable = ["<em>Standard Perk</em>",
+				 "<em>Teachable from Dwight Fairfield</em>",
+				 "<em>Teachable from Meg Thomas</em>",
+				 "<em>Teachable from Claudette Morel</em>",
+				 "<em>Teachable from Jake Park</em>",
+				 "<em>Teachable from Nea Karlsson</em>",
+				 "<em>Teachable from Laurie Strode</em>",
+				 "<em>Teachable from Ace Visconti</em>",
+				 "<em>Teachable from William 'Bill' Overbeck</em>",
+				 "<em>Teachable from Feng Min</em>",
+				 "<em>Teachable from David King</em>"];
 						
 var KillerPerkTitles = ["A Nurse's Calling",
 						"Agitation",
@@ -180,16 +180,16 @@ var KillerPerkDescriptions = [/* A Nurse's Calling */"Unlocks potential in one's
 							/* Unrelenting */"You recuperate faster from any attack made with your main weapon. The cooldown of missed attacks is reduced by <span style='color:yellow'>20</span>/<span style='color:green'>25</span>/<span style='color:purple'>30</span> %.",
 							/* Whispers */"You have a rudimentary understanding of the Entity's voice. Sporadically hear the Entity's Whisper when standing within a <span style='color:yellow'>48</span>/<span style='color:yellow'>40</span>/<span style='color:purple'>32</span> meters of a Survivor."];
 	
-var KillerTeachable = ["Standard Perk",
-				 "Teachable from Trapper",
-				 "Teachable from Wraith",
-				 "Teachable from Hillbilly",
-				 "Teachable from Nurse",
-				 "Teachable from Shape",
-				 "Teachable from Hag",
-				 "Teachable from Doctor",
-				 "Teachable from Huntress",
-				 "Teachable from Cannibal"];
+var KillerTeachable = ["<em>Standard Perk</em>",
+				 "<em>Teachable from Trapper</em>",
+				 "<em>Teachable from Wraith</em>",
+				 "<em>Teachable from Hillbilly</em>",
+				 "<em>Teachable from Nurse</em>",
+				 "<em>Teachable from Shape</em>",
+				 "<em>Teachable from Hag</em>",
+				 "<em>Teachable from Doctor</em>",
+				 "<em>Teachable from Huntress</em>",
+				 "<em>Teachable from Cannibal</em>"];
 	
 function showAITH(x, teach){
     document.getElementById("PerkTitle").innerHTML = SurvivorPerkTitles[x];
@@ -198,7 +198,7 @@ function showAITH(x, teach){
 	
 }
 
-function showKILLER(x){
+function showKILLER(x, teach){
     document.getElementById("PerkTitle").innerHTML = KillerPerkTitles[x];
     document.getElementById("PerkDesc").innerHTML = KillerPerkDescriptions[x];
 	document.getElementById("TeachableDesc").innerHTML = KillerTeachable[teach];
