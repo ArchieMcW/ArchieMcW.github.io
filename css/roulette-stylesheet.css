@@ -93,6 +93,7 @@ input.animated-button.thar-three:focus {
 	display: inline-block;
 	text-align: center;
 	vertical-align: top;
+	padding: 0;
 }
 
 .content ul, li img{
@@ -102,10 +103,6 @@ input.animated-button.thar-three:focus {
 	vertical-align: top;
 }
 
-.perkUL {
-	position: absolute;
-	z-index: 10;
-}
 
 .center {
 	position: absolute;
@@ -113,6 +110,11 @@ input.animated-button.thar-three:focus {
 	width: 100%;
     top: 10%;
 	left: 0;
+	padding-bottom: 50px;
+}
+
+.random {
+	padding-bottom: 50px;
 }
 
 
