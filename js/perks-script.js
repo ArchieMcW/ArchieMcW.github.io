@@ -99,7 +99,20 @@ var SurvivorTeachable = ["<em>Standard Perk</em>",
 				 "<em>Teachable from William 'Bill' Overbeck</em>",
 				 "<em>Teachable from Feng Min</em>",
 				 "<em>Teachable from David King</em>"];
-						
+				
+var SurvivorTeachableImg = ["css/image/survivor/survivorportrait/dbd.png",
+							"css/image/survivor/survivorportrait/dwight.png",
+							"css/image/survivor/survivorportrait/meg.png",
+							"css/image/survivor/survivorportrait/claudette.png",
+							"css/image/survivor/survivorportrait/jake.png",
+							"css/image/survivor/survivorportrait/nea.png",
+							"css/image/survivor/survivorportrait/laurie.png",
+							"css/image/survivor/survivorportrait/ace.png",
+							"css/image/survivor/survivorportrait/bill.png",
+							"css/image/survivor/survivorportrait/feng.png",
+							"css/image/survivor/survivorportrait/david.png"];
+
+				
 var KillerPerkTitles = ["A Nurse's Calling",
 						"Agitation",
 						"Barbeque & Chili",
@@ -195,6 +208,7 @@ function showAITH(x, teach){
     document.getElementById("PerkTitle").innerHTML = SurvivorPerkTitles[x];
     document.getElementById("PerkDesc").innerHTML = SurvivorPerkDescriptions[x];
 	document.getElementById("TeachableDesc").innerHTML = SurvivorTeachable[teach];
+	document.getElementById("TeachableSrc").src = SurvivorTeachableImg[teach];
 	
 }
 
