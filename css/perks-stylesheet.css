@@ -1,6 +1,7 @@
 body {
 	background-color: #000;
 	color: white;
+	font-family: 'Roboto', sans-serif;
 }
 
 .sidebar {
@@ -126,5 +127,7 @@ span {
 	padding-top: 10px;
 }
 
-
+.TeachableDesc {
+	padding-top: 10px;
+}
 
