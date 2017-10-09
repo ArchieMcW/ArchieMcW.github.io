@@ -80,6 +80,8 @@ input.animated-button.thar-three:focus {
 	outline: 0;
 }
 
+
+
 .content ul {
 	word-wrap: break-word;
 	text-align: center;
@@ -100,6 +102,10 @@ input.animated-button.thar-three:focus {
 	vertical-align: top;
 }
 
+.perkUL {
+	position: absolute;
+	z-index: 10;
+}
 
 .center {
 	position: absolute;
@@ -110,6 +116,3 @@ input.animated-button.thar-three:focus {
 }
 
 
-.random {
-	padding-bottom: 50px;
-}
