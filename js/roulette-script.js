@@ -92,15 +92,26 @@ var KillImgSrc = ["css/image/roulette/killer/ANursesCalling.png",
 				  "css/image/roulette/killer/Unrelenting.png",
 				  "css/image/roulette/killer/Whisper.png"];
 
-
-function showFunc(x) {
+var RandButton = ["none",
+				  "block"];
+				  
+				  
+function showFunc(x, y) {
     document.getElementById("rand_title").innerHTML = RandTitles[x];
     document.getElementById("rand_desc").innerHTML = RandDesc[x];
 	document.getElementById("random").onclick = RandFunc[x];
+	
 	document.getElementById("perkslotone").src = "css/image/roulette/survivor/perkslot.png";
 	document.getElementById("perkslottwo").src = "css/image/roulette/survivor/perkslot.png";
 	document.getElementById("perkslotthree").src = "css/image/roulette/survivor/perkslot.png";
 	document.getElementById("perkslotfour").src = "css/image/roulette/survivor/perkslot.png";
+	
+	document.getElementById("perkslotone").style.display = RandButton[y];
+	document.getElementById("perkslottwo").style.display = RandButton[y];
+	document.getElementById("perkslotthree").style.display = RandButton[y];
+	document.getElementById("perkslotfour").style.display = RandButton[y];
+	
+	document.getElementById('random').style.display = RandButton[y];
 };
 
 function randomateSurvPerks() {
