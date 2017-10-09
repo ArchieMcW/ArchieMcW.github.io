@@ -57,6 +57,7 @@ body {
 .content ul {
 	word-wrap: break-word;
 	text-align: center;
+	padding: 0;
 
 }
 
@@ -124,3 +125,6 @@ span {
 	padding-top: 10px;
 }
 
+.myUL {
+	padding: 0;
+}
