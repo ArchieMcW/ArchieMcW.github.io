@@ -1,58 +1,73 @@
 body {
-  background-color: #000;
-  color: white;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+	background-color: #000;
+    color: white;
 }
 
 .sidebar {
-  position: fixed;
-  height: 100%;
-  left: 0;
-  top: 0px;
-  width: 30%;
-  background-color: rgba(0,0,0,0.5)
+  	position: fixed;
+  	height: 100%;
+  	left: 0;
+  	top: 0px;
+  	width: 30%;
+  	background-color: rgba(0,0,0,0.5)
 }
 
 .sidebar h1, h4, p {
-  color: white;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
+  	color: white;
+  	text-align: center;
+  	font-family: 'Roboto', sans-serif;
 }
 
 .content {
-  margin-left: 30%;
-  height: 100%;
-  width: auto;
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  word-wrap: break-word;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  	margin-left: 30%;
+  	height: 100%;
+  	width: auto;
+  	position: relative;
+  	z-index: 1;
+  	text-align: center;
+  	word-wrap: break-word;
 }
 
 .content h1 {
-  margin-top: 3%;
-  width: 100%;
-  font-family: 'Roboto', sans-serif;
+  	margin-top: 3%;
+  	width: 100%;
+  	font-family: 'Roboto', sans-serif;
 }
 
 #video-background {
-  display: block;
-  margin: 0 auto;
-  position: fixed;
-  right: 0; 
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  width: auto; 
-  height: auto;
-  z-index: -100;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  	display: block;
+  	margin: 0 auto;
+  	position: fixed;
+  	right: 0; 
+  	bottom: 0;
+  	min-width: 100%; 
+ 	min-height: 100%;
+ 	width: auto; 
+ 	height: auto;
+ 	z-index: -100;
 }
 
 .buttons_wrap {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
 	width: 100%;
 	text-align: center;
 }
 
 input.animated-button.thar-three {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
 	background: transparent; 
 	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
@@ -72,23 +87,31 @@ input.animated-button.thar-three {
 	
 }
 input.animated-button.thar-three:hover {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
 	color: #000 !important;
 	background-color: #F7CA18;
 }
 
 input.animated-button.thar-three:focus {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
 	outline: 0;
 }
 
 
 
 .content ul {
+	-webkit-backface-visibility: hidden;
 	word-wrap: break-word;
 	text-align: center;
 
 }
 
 .content ul, li {
+	-webkit-backface-visibility: hidden;
 	list-style: none;
 	display: inline-block;
 	text-align: center;
@@ -96,15 +119,20 @@ input.animated-button.thar-three:focus {
 	padding: 0;
 }
 
-.content ul, li img{
+.content ul, li img {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
 	transform: scale(1, 1);
 	transition: 0.3s ease;
 	cursor: pointer;
 	vertical-align: top;
 }
 
-
 .center {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
 	position: absolute;
 	text-align: center;
 	width: 100%;
@@ -114,7 +142,18 @@ input.animated-button.thar-three:focus {
 }
 
 .random {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
 	padding-bottom: 50px;
 }
 
+span {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+	display: grid!important;
+    font-family: 'Roboto', sans-serif;
+
+}
 
