@@ -1,7 +1,9 @@
+.js .accordion:nth-child(n+1) { 
+	display: none 
+}
+
 body {
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility:    hidden;
-	-ms-backface-visibility:     hidden;
+
 	background-color: #000;
     color: white;
 }
@@ -22,9 +24,7 @@ body {
 }
 
 .content {
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility:    hidden;
-	-ms-backface-visibility:     hidden;
+
   	margin-left: 30%;
   	height: 100%;
   	width: auto;
@@ -41,9 +41,7 @@ body {
 }
 
 #video-background {
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility:    hidden;
-	-ms-backface-visibility:     hidden;
+
   	display: block;
   	margin: 0 auto;
   	position: fixed;
@@ -57,17 +55,13 @@ body {
 }
 
 .buttons_wrap {
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility:    hidden;
-	-ms-backface-visibility:     hidden;
+
 	width: 100%;
 	text-align: center;
 }
 
 input.animated-button.thar-three {
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility:    hidden;
-	-ms-backface-visibility:     hidden;
+
 	background: transparent; 
 	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
@@ -87,31 +81,27 @@ input.animated-button.thar-three {
 	
 }
 input.animated-button.thar-three:hover {
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility:    hidden;
-	-ms-backface-visibility:     hidden;
+
 	color: #000 !important;
 	background-color: #F7CA18;
 }
 
 input.animated-button.thar-three:focus {
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility:    hidden;
-	-ms-backface-visibility:     hidden;
+
 	outline: 0;
 }
 
 
 
 .content ul {
-	-webkit-backface-visibility: hidden;
+
 	word-wrap: break-word;
 	text-align: center;
 
 }
 
 .content ul, li {
-	-webkit-backface-visibility: hidden;
+
 	list-style: none;
 	display: inline-block;
 	text-align: center;
@@ -120,9 +110,7 @@ input.animated-button.thar-three:focus {
 }
 
 .content ul, li img {
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility:    hidden;
-	-ms-backface-visibility:     hidden;
+
 	transform: scale(1, 1);
 	transition: 0.3s ease;
 	cursor: pointer;
@@ -130,9 +118,7 @@ input.animated-button.thar-three:focus {
 }
 
 .center {
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility:    hidden;
-	-ms-backface-visibility:     hidden;
+
 	position: absolute;
 	text-align: center;
 	width: 100%;
@@ -142,16 +128,12 @@ input.animated-button.thar-three:focus {
 }
 
 .random {
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility:    hidden;
-	-ms-backface-visibility:     hidden;
+
 	padding-bottom: 50px;
 }
 
 span {
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility:    hidden;
-	-ms-backface-visibility:     hidden;
+
 	display: grid!important;
     font-family: 'Roboto', sans-serif;
 
