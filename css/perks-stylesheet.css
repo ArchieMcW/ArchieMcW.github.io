@@ -20,7 +20,7 @@ body {
 	top: 25%;
 	width: 30%;
 	z-index: -5;
-	opacity:0.075;
+	opacity:0.05;
 	transition: 0.3s ease;
 	
 }

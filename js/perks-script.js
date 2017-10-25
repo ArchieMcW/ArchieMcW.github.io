@@ -203,6 +203,17 @@ var KillerTeachable = ["<em>Standard Perk</em>",
 				 "<em>Teachable from Doctor</em>",
 				 "<em>Teachable from Huntress</em>",
 				 "<em>Teachable from Cannibal</em>"];
+
+var KillerTeachableImg = ["css/image/killer/killerportrait/dbd.png",
+							"css/image/killer/killerportrait/trapper.png",
+							"css/image/killer/killerportrait/wraith.png",
+							"css/image/killer/killerportrait/hillbilly.png",
+							"css/image/killer/killerportrait/nurse.png",
+							"css/image/killer/killerportrait/michael.png",
+							"css/image/killer/killerportrait/hag.png",
+							"css/image/killer/killerportrait/doctor.png",
+							"css/image/killer/killerportrait/huntress.png",
+							"css/image/killer/killerportrait/leatherface.png"];
 	
 function showAITH(x, teach){
     document.getElementById("PerkTitle").innerHTML = SurvivorPerkTitles[x];
@@ -216,6 +227,7 @@ function showKILLER(x, teach){
     document.getElementById("PerkTitle").innerHTML = KillerPerkTitles[x];
     document.getElementById("PerkDesc").innerHTML = KillerPerkDescriptions[x];
 	document.getElementById("TeachableDesc").innerHTML = KillerTeachable[teach];
+	document.getElementById("TeachableSrc").src = KillerTeachableImg[teach];
 }
 
 function searchBar() {
